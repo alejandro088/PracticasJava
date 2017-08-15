@@ -54,6 +54,8 @@ public class DocPanel extends JPanel {
 		//mnFont.setAutoscrolls(true);
 		//MenuScroller.setScrollerFor(mnFont, 8, 125, 3, 1);
 		
+		
+		//Clase MenuScroller thanks by https://tips4java.wordpress.com/2009/02/01/menu-scroller/
 		MenuScroller.setScrollerFor(mnFont);
 		
 		menu.add(mnFont);
